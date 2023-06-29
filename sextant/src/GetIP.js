@@ -1,4 +1,3 @@
-import { ipv4, ipv64 } from "ipify2"
 import React , {useEffect,useState} from 'react'
 const Display = ({url})=>{
     const [ipAddres,setIpAddress] = useState(null)
