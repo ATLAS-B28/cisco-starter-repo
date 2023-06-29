@@ -1,14 +1,14 @@
 
 import './App.css';
-
+import Banner from './Banner';
+import Card from './Card';
 function App(props) {
   return (
     <div className="App">
-      <h1 className='Banner'>Sextant Banner</h1>
-      <div className='Cards'>
-        <div>Card Title</div>
-        <div className='card-1'>{props.children}</div>
-      </div>
+      <Banner head="Banner"/>
+      <Card head="Card-1" />
+      <Card head="Card-2" />
+      <Card head="Card-3" />
     </div>
   );
 }
